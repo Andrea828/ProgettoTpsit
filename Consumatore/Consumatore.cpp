@@ -15,6 +15,7 @@ struct SHARED
 //Commit di Andrea Meneghello 
 
 //Commit di Diego Marchesini
+// Commit di Alessandro Marchetti 00
 int main(int argc, char* argv[])
 {
 	struct SHARED *shared_data;
