@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
 		CloseHandle(full_semaphore);
 		return -1;
 	}
-
+	// Commit Andrea meneghello
 	do
 	{
 		WaitForSingleObject(full_semaphore, INFINITE);
@@ -94,4 +94,5 @@ int main(int argc, char* argv[])
 	CloseHandle(full_semaphore);
 
 	return 0;
+	
 }
